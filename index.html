@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shop</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+
+<div id="contact-popup">
+  <h3>Get Your Photo Edited</h3>
+  <p>Contact Us</p>
+  <a href="https://www.instagram.com/sahil.aditya_" target="_blank">📩 DM on Instagram</a>
+  <a href="mailto:sahilmaurya321@outlook.in">✉️ Send Email</a>
+  <a id="phone-link" href="#" style="display:none;">📞 Call</a>
+  <div class="info-icon">ⓘ</div>
+</div>
+
+<div class="heading-container">
+    <h1>SamTouched Presets</h1>
+    <h3>Colorist | sahil.aditya_</h3>
+</div>
+
+<div id="shop-grid" class="shop-grid"></div>
+
+<div id="product-modal" class="modal-overlay">
+  <span class="close-btn">&times;</span>
+  <div class="modal-content">
+    <div class="modal-image-container">
+        <img src="" alt="Product Image" class="modal-image" id="modal-image">
+        <div class="image-dots" id="image-dots"></div>
+    </div>
+    <div class="modal-info">
+      <h2 class="modal-name" id="modal-name"></h2>
+      <div class="modal-price-buy">
+        <span class="modal-price" id="modal-price"></span>
+        <a id="buy-link" href="#" target="_blank" class="buy-btn">Buy Now</a>
+      </div>
+      <p class="modal-desc" id="modal-desc"></p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
